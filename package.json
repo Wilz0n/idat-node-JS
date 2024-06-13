@@ -1,0 +1,14 @@
+{
+  "name": "idat-tareas-node-js",
+  "version": "1.0.0",
+  "description": "tarea-idat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "javier bernal acosta",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^1.7.2"
+  }
+}
