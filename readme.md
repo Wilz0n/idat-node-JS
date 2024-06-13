@@ -36,3 +36,4 @@ npm install react-dom
 npm install -g nodemon
 npm install -g mocha
 ```
+# Tarea para proxima semana dia lunes 17/06/24 INVESTIGAR VITE
