@@ -1,0 +1,122 @@
+:root {
+    --body-color: #b12626;
+    --login-border: #fff;
+    --text-buttom: #1d1d1d;
+    --font-login: #1fc248;
+  }
+  
+  body {
+    background-image: linear-gradient(to bottom, #2228be, #b32f26, #494b8d);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .wrapper {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: var(--login-border);
+    border-radius: 10px;
+    padding: 30px 40px;
+  }
+  
+  .wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  .wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+  }
+  
+  .input-box input {
+    width: 96%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: var(--login-border);
+    padding: 4px 0px 0px 13px;
+  }
+  
+  .input-box input::-moz-placeholder {
+    color: var(--login-border);
+  }
+  
+  .input-box input::placeholder {
+    color: var(--login-border);
+  }
+  
+  .input-box i {
+    position: absolute;
+    right: 24px;
+    top: 55%;
+    transform: translateY(-50%);
+    font-size: 20px;
+  }
+  
+  .wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+  }
+  
+  .remember-forgot label input {
+    accent-color: var(--login-border);
+    margin-right: 3px;
+  }
+  
+  .remember-forgot a {
+    color: var(--login-border);
+    text-decoration: none;
+  }
+  
+  .remember-forgot a:hover {
+    text-decoration: underline;
+  }
+  
+  .wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: var(--login-border);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: var(--text-buttom);
+    font-weight: 600;
+  }
+  
+  .wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+  }
+  
+  .register-link p a {
+    color: var(--login-border);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .register-link p a:hover {
+    text-decoration: underline;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
