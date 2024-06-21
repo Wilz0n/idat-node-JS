@@ -37,3 +37,4 @@
 
 1. Crear repositorio , y crear por cada concepto un archivo javascript y dar el ejemplo
 2. Crear archivo readme.md y por cada archivo de JS en el readme agregar un resumen de cada funcionalidad
+3. prueba
