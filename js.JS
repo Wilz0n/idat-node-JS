@@ -1,17 +1,15 @@
-# Temas
+function makeCalCWithDestructuringParam({ x, y: d, z = 4 }) {
+    return Math.floor((x + d + z) / 3);
+    }
+    
+    // CONVERTIR LA ULTIMA FUNCION EN ARROW FUNCTION
 
-## 01_tempateLiterals.JS
-## 02_shorthandPropertyName.JS
-## 03_arrowFunctions.JS
-## 04_destructuring.JS
-## 05_parameterDefaults.JS
-## 06_esModules.JS
-## 07_ternaries.JS
-## 08_arrayMethodos.JS
+const makeCalCWithDestructuringParam = ({ x, y: d, z = 4 }) => // CONVERSION A ARROW FUNCTION
+    Math.floor((x + d + z) / 3);
 
-# arrayMethodos.JS 
-## perritos:
-```
+
+// arrayMethodos.JS
+
     const dogs = [
         {
             id: 'dog-1',
@@ -30,10 +28,10 @@
         temperament: ['Intelligent','Even Tempered','Kind','Agile','Outgoing','Trusting','Gentle',],
     },
 ];
-```
 
+// consolge.log(dogs);
 
-## Tarea:
+// FIND(Busca un elemento)
 
-1. Crear repositorio , y crear por cada concepto un archivo javascript y dar el ejemplo
-2. Crear archivo readme.md y por cada archivo de JS en el readme agregar un resumen de cada funcionalidad
+const dogBernice = dogs.find((dog) => dog.name === 'Bernanse Mountain Dog')
+// console.log(dogBernice);
